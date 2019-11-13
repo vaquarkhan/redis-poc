@@ -5,7 +5,7 @@
 ### run with docker 
 
 ```shell script
-docker run --name redis-test -d redis
+docker run -p 6379:6379 --name redis-test -d redis
 ```
 
 ### login to redis shell
