@@ -4,8 +4,9 @@ import org.springframework.data.redis.core.RedisHash;
 
 import java.io.Serializable;
 
-@RedisHash(value = "Student", timeToLive = 30L)
-public class Vehicle implements Serializable {
+
+@RedisHash(value = "Student", timeToLive = 3000L)
+public final class Vehicle implements Serializable {
 
 
     private String id;
