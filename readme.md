@@ -14,3 +14,4 @@ docker run -p 6379:6379 --name redis-test -d redis
 docker exec -it `container-id` /bin/sh
 ```
 
+- https://github.com/rossr3-pivotal/spring-boot-rest-redis-tutorial
